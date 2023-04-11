@@ -20,4 +20,20 @@ entries:
     urls:
     - https://github.com/jmangan70/helm-charts/releases/download/jenkins-2.5.4/jenkins-2.5.4.tgz
     version: 2.5.4
-generated: "2023-04-11T18:25:19.623531405Z"
+  spark:
+  - apiVersion: v1
+    appVersion: 1.5.1
+    created: "2023-04-11T19:28:34.420980734Z"
+    deprecated: true
+    description: DEPRECATED - Fast and general-purpose cluster computing system.
+    digest: 3fc7369316a9e8e3a5bc9693bd9d568462fa4d077f42682ceabb80ee66114076
+    home: http://spark.apache.org
+    icon: http://spark.apache.org/images/spark-logo-trademark.png
+    name: spark
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/examples/spark
+    - https://github.com/apache/spark
+    urls:
+    - https://github.com/jmangan70/helm-charts/releases/download/spark-1.0.5/spark-1.0.5.tgz
+    version: 1.0.5
+generated: "2023-04-11T19:28:34.420985834Z"
