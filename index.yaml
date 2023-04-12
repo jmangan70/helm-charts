@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-12T13:07:49.640672255Z"
+    description: A Helm chart for Kubernetes
+    digest: 47af57ccfc55e69e0a05f1960601f5f11dd9ee73afa8cc0316cc2a4e3ae97464
+    name: demo
+    type: application
+    urls:
+    - https://github.com/jmangan70/helm-charts/releases/download/demo-0.1.0/demo-0.1.0.tgz
+    version: 0.1.0
   jenkins:
   - apiVersion: v1
     appVersion: lts
@@ -36,4 +47,4 @@ entries:
     urls:
     - https://github.com/jmangan70/helm-charts/releases/download/spark-1.0.5/spark-1.0.5.tgz
     version: 1.0.5
-generated: "2023-04-11T19:28:34.420985834Z"
+generated: "2023-04-12T13:07:49.640676555Z"
